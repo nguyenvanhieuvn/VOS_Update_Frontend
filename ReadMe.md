@@ -28,6 +28,8 @@ $ make main
 ```
   - Reading text from "input.txt" and print to "output.txt" (create new file input.txt to input, the input.txt must have content)
 ```sh
-$ touch input.txt
+$ echo "là 5.000đồng/lượt/xe" > input.txt
 $ ./main
+# See result
+$ cat output.txt
 ```
