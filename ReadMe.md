@@ -7,9 +7,14 @@
 ```sh
 $ tar xvzf icu4c-64_2-Ubuntu18.04-x64.tgz
 ```
-  - Copy all folders in **icu/usr/local** to replace same-name-folders in **VOS_Update_Frontend**
+- Copy all folders in **icu/usr/local** to replace same-name-folders in **VOS_Update_Frontend**
     (OVERWRITE ALL FOLDERS: bin, include, lib, sbin, share)
-  - Move to src
+```
+   
+$ rm -rf lib
+$ cp -r -p icu/usr/local/* .
+```
+- Move to src
 ```sh
 $ cd src
 ```
